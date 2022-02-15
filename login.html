@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="login.js" defer></script>
+  </head>
+  <body style="background-color: aqua">
+    <div class="forms m-5 p-5">
+      <div class="row" style="margin-left: 120px">
+        <div class="col col-md-4 bg-success m-5">
+          <form>
+            <div class="form-group ml-5">
+              <div class="row">
+                <h2 class="ml-5">Login For Dealer</h2>
+              </div>
+              <br />
+              <div class="row">
+                <div class="col col-8"><p id="dealercont"></p></div>
+              </div>
+              <br />
+              <div class="row">
+                <div class="col col-2">
+                  <label class="form-label">Username</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col col-9">
+                  <input type="text" class="form-control" id="dealername" />
+                </div>
+              </div>
+              <br />
+              <div class="row">
+                <div class="col col-2">
+                  <label class="form-label">Password</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col col-9">
+                  <input type="password" class="form-control" id="dealerpass" />
+                </div>
+              </div>
+              <br />
+              <div class="row">
+                <div class="col col-4">
+                  <input
+                    type="submit"
+                    value="Submit"
+                    class="btn btn-primary"
+                    style="width: 150px"
+                    id="dealerbtn"
+                  />
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col col-md-4 bg-success m-5">
+          <form>
+            <div class="form-group ml-5">
+              <div class="row">
+                <h2 class="ml-5">Login For Driver</h2>
+              </div>
+              <br>
+              <div class="row">
+                <div class="col col-8"><p id="drivercont"></p></div>
+              </div>
+              <br />
+              <div class="row">
+                <div class="col col-2">
+                  <label class="form-label">Username</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col col-9">
+                  <input type="text" class="form-control" id="drivername" />
+                </div>
+              </div>
+              <br />
+              <div class="row">
+                <div class="col col-2">
+                  <label class="form-label">Password</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col col-9">
+                  <input type="password" class="form-control" id="driverpass" />
+                </div>
+              </div>
+              <br />
+              <div class="row">
+                <div class="col col-4">
+                  <input
+                    type="submit"
+                    value="Submit"
+                    class="btn btn-primary"
+                    style="width: 150px"
+                    id="driverbtn"
+                  />
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

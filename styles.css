@@ -1,0 +1,32 @@
+.wholepage{
+    background-image: url(./Images/Bground.jpg);
+   background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+}
+
+.Block1{
+    background-color:aqua;
+    width: 50%;
+    height: 10cm;
+   border-radius: 10px;
+    display: grid;
+    padding-top: 2cm;
+    justify-content: center;
+}
+
+.Inblock1{
+    justify-content: space-between;
+}
+
+.division{
+    padding-top: 6cm;
+    padding-bottom: 2cm;
+}
+
+.heading{
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 2cm;
+    font-size: 1.5cm;
+}
